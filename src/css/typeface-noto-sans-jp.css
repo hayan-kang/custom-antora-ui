@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+    local("Noto Sans JP"),
+    local("Noto Sans JP-Regular"),
+    url(~@fontsource/noto-sans-jp/files/noto-sans-jp-japanese-400-normal.woff2) format("woff2"),
+    url(~@fontsource/noto-sans-jp/files/noto-sans-jp-japanese-400-normal.woff) format("woff");	
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+4E00-9FFF, U+FF00-FFEF; /* Japanese */
+}
